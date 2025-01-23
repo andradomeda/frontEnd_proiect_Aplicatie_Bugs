@@ -1,0 +1,17 @@
+/* Ensure the root elements take up the full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContent {
+  flex: 1;
+  padding-top: 60px;
+  min-height: 100%;
+  background-color: var(--backgroundcolor);
+  display: flex;
+  flex-direction: column;
+}

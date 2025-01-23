@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Stiluri generale pentru toate paginile */
+html,
+body, #root{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero min-h-screen{
+  min-height: 100vh; /* Hero va ocupa cel puțin întreaga înălțime a ecranului */
+  height: 100%; /* Hero ocupă toată înălțimea părintelui */
+}

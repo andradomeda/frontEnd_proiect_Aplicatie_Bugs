@@ -1,0 +1,28 @@
+:root {
+
+    --primary: #3b3355;
+    --primary-dark: #2c2640;
+    --primary-light: #4f497d;
+    --secondary: #bfcde0;
+    --backgroundcolor: #fefcfd;
+    --text-color: white;
+
+    --navbar-bg-color: #3b3355;
+    --footer-bg-color: #3b3355;
+    --card-color: white;
+
+    /* eu, Daniela, am adaugat astea */
+    --checked-box-color: rgb(102, 220, 102);
+    --completed-tasks-background: rgb(206, 239, 206);
+    --shadow: rgb(37, 37, 37);
+    --black: black;
+    --button-padding: 16px 32px;
+    --font-size: 1.2em;
+    --border-radius: 12px;
+    --box-shadow-light: 0 6px 12px var(--black);
+    --box-shadow-hover: 0 8px 16px var(--black);
+    --box-shadow-active: 0 4px 8px var(--black);
+    --button-transform-hover: translateY(-4px);
+    --button-transform-active: translateY(2px);
+    --primary-light-transparent: rgba(79, 73, 125, 0.5); 
+}
